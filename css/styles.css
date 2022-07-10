@@ -107,6 +107,7 @@ ul {
 	display: flex;
 	margin-left: auto;
 	letter-spacing: 0.02em;
+	align-items: center;
 }
 
 .header-element {
@@ -129,11 +130,11 @@ ul {
 }
 
 .header-phone {
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .hero {
-	/* background-color: var(--accent-background-color); */
+	background-color: var(--accent-background-color);
 	color: var(--white-text-clolor);
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -184,6 +185,7 @@ ul {
 
 .features-list {
 	display: flex;
+	height: 251px;
 	justify-content: space-between;
 }
 
@@ -191,6 +193,34 @@ ul {
 	display: block;
 	width: 270px;
 	height: 101px;
+}
+
+.features-item::before {
+	display: block;
+	content: "";
+	height: 120px;
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70px 70px;
+}
+
+.features-item.icon-antenna::before {
+	background-image: url(../images/features/antenna.png);
+}
+
+.features-item.icon-watch::before {
+	background-image: url(../images/features/clock.png);
+}
+
+.features-item.icon-diagram::before {
+	background-image: url(../images/features/diagram.png);
+}
+
+.features-item.icon-spaceman::before {
+	background-image: url(../images/features/astronaut.png);
 }
 
 .features-subtitle {
@@ -212,7 +242,7 @@ ul {
 }
 
 .services {
-	padding-top: 0;
+	padding-top: 0px;
 }
 
 .services-list {

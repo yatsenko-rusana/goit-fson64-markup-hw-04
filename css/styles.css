@@ -208,19 +208,19 @@ ul {
 }
 
 .features-item.icon-antenna::before {
-	background-image: url(../images/features/antenna.png);
+	background-image: url(../images/features/antenna.svg);
 }
 
 .features-item.icon-watch::before {
-	background-image: url(../images/features/clock.png);
+	background-image: url(../images/features/clock.svg);
 }
 
 .features-item.icon-diagram::before {
-	background-image: url(../images/features/diagram.png);
+	background-image: url(../images/features/diagram.svg);
 }
 
 .features-item.icon-spaceman::before {
-	background-image: url(../images/features/astronaut.png);
+	background-image: url(../images/features/astronaut.svg);
 }
 
 .features-subtitle {
@@ -395,9 +395,14 @@ ul {
 }
 
 .footer {
+	display: block;
 	background-color: var(--accent-background-color);
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.footer-blocks {
+	display: inline-flex;
 }
 
 .footer-logo {
@@ -456,4 +461,72 @@ ul {
 .footer-phone:hover,
 .footer-phone:focus {
 	color: var(--accent-color);
+}
+
+.footer-info {
+	display: block;
+	margin-right: 70px;
+}
+
+.footer-social {
+	display: inline-block;
+	width: 206px;
+	height: auto;
+	margin-top: 12px;
+}
+
+.footer-subtitle {
+	font-size: 14px;
+	line-height: 1.2;
+	color: var(--white-text-clolor);
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.footer-links {
+	display: inline-flex;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.social-links {
+	display: block;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.social-links:last-child {
+	margin-right: 0px;
+}
+
+.social-icons {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+}
+
+.social-icons:hover,
+.social-icons:focus {
+	background-color: var(--accent-color);
+}
+
+.footer-instagram {
+	background-image: url(../images/footer/instagram.svg);
+}
+
+.footer-twitter {
+	background-image: url(../images/footer/twitter.svg);
+}
+
+.footer-facebook {
+	background-image: url(../images/footer/facebook.svg);
+}
+
+.footer-linkedin {
+	background-image: url(../images/footer/linkedin.svg);
 }

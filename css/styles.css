@@ -290,7 +290,7 @@ ul {
 
 .team-group {
 	text-align: center;
-	padding: 30px 0px;
+	padding: 30px 0px 16px 0px;
 }
 
 .team-item {
@@ -317,6 +317,64 @@ ul {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.team-links {
+	display: inline-flex;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.team-instagram {
+	background-image: url(../images/team/instagram-opt.svg);
+}
+
+.team-twitter {
+	background-image: url(../images/team/twitter-opt.svg);
+}
+
+.team-facebook {
+	background-image: url(../images/team/facebook-opt.svg);
+}
+
+.team-linkedin {
+	background-image: url(../images/team/linkedin-opt.svg);
+}
+
+.team-social {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-bottom: 30px;
+}
+
+.clients-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	text-align: center;
+	color: var(--title-text-color);
+	margin-bottom: 50px;
+}
+
+.clients-list {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.clients-place {
+	display: flex;
+	border-radius: 4px;
+	border: 1px solid #afb1b8;
+	width: 170px;
+	height: 92px;
+	align-items: center;
+}
+
+.client-company {
+	background-image: url(../images/clients/logo-1-opt.svg);
 }
 
 .portfolio {

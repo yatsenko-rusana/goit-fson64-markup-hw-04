@@ -130,7 +130,19 @@ ul {
 }
 
 .header-phone {
-	margin-left: 30px;
+	margin-left: 50px;
+}
+
+.header-mail {
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+}
+
+.header-smartphone {
+	width: 10px;
+	height: 16px;
+	margin-right: 10px;
 }
 
 .hero {
@@ -208,7 +220,7 @@ ul {
 }
 
 .features-item.icon-antenna::before {
-	background-image: url(../images/features/antenna.svg);
+	background-image: url(../images/features/antena.svg);
 }
 
 .features-item.icon-watch::before {

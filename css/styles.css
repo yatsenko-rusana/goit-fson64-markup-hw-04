@@ -582,3 +582,9 @@ ul {
 	width: 20px;
 	height: 20px;
 }
+
+.footer-link-icon {
+	width: 20px;
+	height: 20px;
+	fill: var(--white-text-clolor);
+}

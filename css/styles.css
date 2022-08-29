@@ -139,10 +139,20 @@ ul {
 	margin-right: 10px;
 }
 
+.header-mail:hover,
+.header-mail:focus {
+	color: var(--accent-color);
+}
+
 .header-smartphone {
 	width: 10px;
 	height: 16px;
 	margin-right: 10px;
+}
+
+.header-smartphone:hover,
+.header-smartphone:focus {
+	color: var(--accent-color);
 }
 
 .hero {
@@ -199,40 +209,24 @@ ul {
 	display: flex;
 	height: 251px;
 	justify-content: space-between;
+	gap: 30px;
 }
 
-.features-item {
-	display: block;
+.features-fon {
+	display: flex;
 	width: 270px;
-	height: 101px;
-}
-
-.features-item::before {
-	display: block;
-	content: "";
 	height: 120px;
-	background-color: #f5f4fa;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--second-background-color);
 	border-radius: 4px;
 	margin-bottom: 30px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 70px 70px;
 }
 
-.features-item.icon-antenna::before {
-	background-image: url(../images/features/antena.svg);
-}
-
-.features-item.icon-watch::before {
-	background-image: url(../images/features/clock.svg);
-}
-
-.features-item.icon-diagram::before {
-	background-image: url(../images/features/diagram.svg);
-}
-
-.features-item.icon-spaceman::before {
-	background-image: url(../images/features/astronaut.svg);
+.features-icons {
+	width: 70px;
+	height: 70px;
 }
 
 .features-subtitle {

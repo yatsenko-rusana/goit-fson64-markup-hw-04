@@ -7,6 +7,7 @@
 	--main-background-color: #ffffff;
 	--second-background-color: #f5f4fa;
 	--accent-background-color: #2f303a;
+	--accent-icons-logo: #afb1b8;
 }
 
 body {
@@ -122,11 +123,13 @@ ul {
 .header-contact:hover,
 .header-contact:focus {
 	color: var(--accent-color);
+	fill: var(--accent-color);
 }
 
 .header-phone:hover,
 .header-phone:focus {
 	color: var(--accent-color);
+	fill: var(--accent-color);
 }
 
 .header-phone {
@@ -139,20 +142,10 @@ ul {
 	margin-right: 10px;
 }
 
-.header-mail:hover,
-.header-mail:focus {
-	color: var(--accent-color);
-}
-
 .header-smartphone {
 	width: 10px;
 	height: 16px;
 	margin-right: 10px;
-}
-
-.header-smartphone:hover,
-.header-smartphone:focus {
-	color: var(--accent-color);
 }
 
 .hero {
@@ -365,6 +358,12 @@ ul {
 	height: 92px;
 	justify-content: center;
 	align-items: center;
+	fill: var(--accent-icons-logo);
+}
+
+.clients-place:hover,
+.clients-place:focus {
+	border-color: var(--accent-color);
 }
 
 .clients-logo {
@@ -373,6 +372,12 @@ ul {
 	height: 60px;
 	justify-content: center;
 	align-items: center;
+	fill: var(--accent-icons-logo);
+}
+
+.clients-logo:hover,
+.clients-logo:focus {
+	fill: var(--accent-color);
 }
 
 .client-company {
@@ -571,11 +576,13 @@ ul {
 	text-decoration: none;
 	justify-content: center;
 	align-items: center;
+	fill: var(--accent-icons-logo);
 }
 
 .social-icons:hover,
 .social-icons:focus {
 	background-color: var(--accent-color);
+	fill: var(--main-background-color);
 }
 
 .social-link-icon {

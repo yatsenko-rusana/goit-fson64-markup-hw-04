@@ -198,6 +198,11 @@ ul {
 	margin: auto;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+	background-color: rgba(24, 140, 232, 1);
+}
+
 .features-list {
 	display: flex;
 	height: 251px;

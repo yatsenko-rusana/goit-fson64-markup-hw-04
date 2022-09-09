@@ -216,7 +216,6 @@ ul {
 	height: 120px;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 	background-color: var(--second-background-color);
 	border-radius: 4px;
 	margin-bottom: 30px;

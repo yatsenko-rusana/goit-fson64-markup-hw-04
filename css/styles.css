@@ -120,6 +120,11 @@ ul {
 	color: var(--primary-text-color);
 }
 
+.header-contact {
+	display: flex;
+	align-items: center;
+}
+
 .header-contact:hover,
 .header-contact:focus {
 	color: var(--accent-color);
@@ -133,6 +138,8 @@ ul {
 }
 
 .header-phone {
+	display: flex;
+	align-items: center;
 	margin-left: 50px;
 }
 

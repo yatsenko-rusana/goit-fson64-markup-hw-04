@@ -471,6 +471,7 @@ ul {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.9;
+	color: var(--primary-text-color);
 }
 
 .footer {

@@ -300,7 +300,7 @@ ul {
 
 .team-group {
 	text-align: center;
-	padding: 30px 0px 16px 0px;
+	padding: 30px 0px 30px 0px;
 }
 
 .team-item {
@@ -321,6 +321,7 @@ ul {
 	font-size: 16px;
 	line-height: 1.2;
 	font-weight: 400;
+	margin-bottom: 16px;
 }
 
 .team-img {
